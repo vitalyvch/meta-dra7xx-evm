@@ -13,6 +13,6 @@ FILESEXTRAPATHS_prepend := "${THISDIR}/linux-ti-glsdk:"
 ###
 KERNEL_GIT_URI = "git://review.tizen.org/profile/ivi/kernel-x86-ivi"
 KERNEL_GIT_PROTOCOL = "ssh"
-SRC_URI = "${KERNEL_GIT_URI};protocol=${KERNEL_GIT_PROTOCOL};branch=${BRANCH};bareclone=1 \
+SRC_URI = "${KERNEL_GIT_URI};protocol=${KERNEL_GIT_PROTOCOL};branch=${BRANCH}; \
            file://defconfig \
           "
